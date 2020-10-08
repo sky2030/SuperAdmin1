@@ -1,0 +1,41 @@
+.dashcontainer{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.dashbody{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dashboardCard{
+    background-color:rgb(123, 209, 176);
+    border: 1px solid rgb(71, 196, 67, 0.7);
+    border-bottom: 7px solid rgba(41, 139, 37, 0.7);
+    border-radius: 10px;
+    margin-right: 2em;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 3px;
+    text-decoration: none;
+    width:35vw;
+    color: black;
+  }  
+  .CardIcons{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    }
+  
+  .hosimages{
+    flex:1;  
+  }
+  .HosAddress1{
+    flex:1;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: 20px;
+  }
+  
+  

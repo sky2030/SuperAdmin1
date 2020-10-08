@@ -1,0 +1,457 @@
+.patientCard{
+    background-color: rgba(189, 187, 101, 0.753);
+    border: 3px solid darkred;
+    border-radius: 10px;
+    margin-top: 1em;
+    display: flex; 
+    width: 30vw;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    flex:1;
+    flex-direction: column;
+    margin-left: 12rem;
+    padding-bottom: 8px;
+  
+    
+  }
+
+  .ChoosePatient{
+    width:8vw;
+    height: 5vh;
+    color:white;
+    background-color: rgb(139, 3, 15);
+    border: 2px solid darkred;
+    margin-left: 1em;
+    }
+  
+  .patientheader{
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .invoiceheader{
+    color: white;
+    background-color: rgba(61, 117, 190, 0.507);
+    border-bottom:2px solid darkblue;
+    border-radius:7px 7px 0px 0px ;
+    font-size: 2rem;
+    flex-direction: row;
+     display: flex;
+    height: 5vh;
+    align-items: space-between;
+    width: 30vw;
+  }
+  .invoicediv{
+      flex:1;
+      margin-top:3px;
+      margin-right: 2rem;
+      font-size: 1rem;
+  }
+  .bodytext{
+      flex-direction: column;
+      align-items: center;
+      margin-left: 2rem;
+      flex:1;
+  }
+  .textalign{
+      font-size: 1rem;
+      font-weight: bold;
+      color: rgb(8, 88, 31);
+  }
+  .textalign1{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    color: rgb(28, 41, 29);
+}
+  .textdiv{
+      margin-bottom: 1px;
+  }
+  .textdiv1{
+    margin-bottom: 1px;
+    align-items: flex-start;
+}
+.textheader{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    flex:1
+}
+.bodytext1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-left: 1px;
+    display: flex;
+      margin-right: 40px;
+}
+
+
+.textdiv2{
+    margin-bottom: 1px;
+}
+.textdiv3{
+  margin-bottom: 1px;
+  align-items: flex-end;
+  padding-right: 1rem;
+  margin-left: 4rem;
+  flex-direction: row;
+}
+.amountdiv{
+    margin-bottom: 1px;
+      margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(8, 88, 31);
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-self: flex-end;
+}
+.amountdiv1{
+  align-items: center;
+  background-color: rgba(61, 117, 190, 0.507);
+  border-bottom:2px solid darkblue;
+    border-radius: 5px;
+    margin-right: 1.3em;
+    display: flex; 
+    flex-direction: row;
+    padding:3px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(228, 235, 228);
+    align-items: flex-end;
+    justify-self: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+   
+    }
+
+
+  .bodyheadernew{
+      display: flex;
+      flex:1;
+      flex-direction: flex-start;
+
+  }
+  .image1{
+    background-repeat: 'no-repeat';
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+   background-position: center;
+   padding-top: 20px;
+   
+   display: flex;
+   flex-direction: column;
+}
+.patientcontainer{
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .image1{
+    
+    width:100vw;
+    background-size: cover;
+   background-position: center;
+   padding-top: 5px;
+   display: flex;
+   flex-direction: column;
+} 
+  .patientCard{
+      background-color: rgba(189, 187, 101, 0.753);
+      border: 2px solid rgba(161, 71, 121, 0.904);
+      border-radius: 10px;
+      margin-top: 1em;
+      display: flex; 
+      width: 80vw;
+      margin-bottom: 1rem;
+      align-self: center;
+      flex-direction: column;
+      margin-left: 4rem;
+    
+      }
+
+      .ChoosePatient{
+        width:15vw;
+      }
+      .invoiceheader{
+        color: white;
+        border-bottom:2px solid darkblue;
+        font-size: 2rem;
+        flex-direction: row;
+        display: flex;
+        width: 80vw;
+      }
+      .invoicediv{
+        flex:1;
+        margin-top:3px;
+        font-size: 0.7rem;
+        flex-direction: row;
+    }
+    .textheader{
+      align-items: center;
+      justify-items: center;
+      flex-direction: row;
+  }
+    .bodytext{
+        flex-direction: column;
+        display: flex;
+        margin-left: 1rem;
+    }
+    .textalign{
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: rgb(8, 88, 31);
+        flex-direction: row;
+        display: flex;
+    }
+    .textalign1{
+      font-size: 0.7rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 2px;
+      color: rgb(28, 41, 29);
+      flex-direction: row;
+      display: flex;
+  }
+  .bodytext1{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-items: center;
+      margin-left: 1px;
+      display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+  }
+  .textdiv3{
+    margin-bottom: 1px;
+    /* align-items: flex-start; */
+    flex-direction: row;
+    display: flex;
+    
+  }
+  .amountdiv{
+      margin-bottom: 1px;
+      padding-right: 1rem;
+      font-size: 0.7rem;
+      font-weight: bold;
+      color: rgb(8, 88, 31);
+      flex-direction: row;
+      display: flex;
+      
+  }
+  .amountdiv1{
+    align-items: flex-start;
+    
+    background-color: rgba(61, 117, 190, 0.507);
+    border-bottom:2px solid darkblue;
+      border-radius: 5px;
+      margin-right: 2em;
+      display: flex; 
+      flex-direction: row;
+      padding:3px;
+      font-size: 0.5rem;
+      font-weight: bold;
+      color: rgb(228, 235, 228);
+      flex-direction: column;
+      display: flex;
+     
+      width:2.5rem
+      }
+  
+  .patientheading{
+      flex:1;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-direction: row;
+      
+    }
+    .bodyheadernew{
+        display: flex;
+        flex-direction: row;
+  
+    }
+    .image1{
+      background-repeat: 'no-repeat';
+      width:100vw;
+      height:100vh;
+      background-size: cover;
+     background-position: center;
+     padding-top: 20px;
+     
+     display: flex;
+     flex-direction: column;
+  }
+  .patientcontainer{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  h1{
+    font-size: 10px;
+  }
+  .image1{
+    background-repeat: 'no-repeat';
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+   background-position: center;
+   padding-top: 5px;
+   display: flex;
+   flex-direction: column;
+} 
+.ChoosePatient{
+  width:20vw;
+}
+  .patientCard{
+      background-color: rgba(189, 187, 101, 0.753);
+      border: 2px solid rgba(161, 71, 121, 0.904);
+      border-radius: 10px;
+      margin-top: 1em;
+      display: flex; 
+      width: 50vw;
+      margin-bottom: 1rem;
+      
+      flex-direction: column;
+      
+      margin-left: 6rem;
+      justify-content: center;
+    
+      }
+      .invoiceheader{
+        color: white;
+        border-bottom:2px solid darkblue;
+        font-size: 2rem;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+        height: 2rem;
+      }
+      .invoicediv{
+        flex:1;
+        margin-top:3px;
+        margin-right: 2rem;
+        font-size: 0.6rem;
+        flex-direction: column;
+        margin-left: 1.8rem;
+        justify-content: center;
+    }
+    .textheader{
+      align-items: center;
+      justify-items: center;
+      flex-direction: column;
+      margin-right: 1rem;
+  }
+    .bodytext{
+        flex-direction: column;
+        display: flex;
+        margin-left: 1rem;
+    }
+    .textalign{
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: rgb(8, 88, 31);
+        flex-direction: column;
+        display: flex;
+    }
+    .textalign1{
+      font-size: 0.7rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 2px;
+      color: rgb(28, 41, 29);
+      flex-direction: column;
+      display: flex;
+  }
+  .bodytext1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      margin-left: 1px;
+      display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+  }
+  .textdiv3{
+    margin-bottom: 1px;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  .amountdiv{
+      margin-bottom: 1px;
+      margin-bottom: 0.1rem;
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: rgb(8, 88, 31);
+      flex-direction: column;
+      display: flex;
+      margin-left: 2.8rem;
+      justify-content: center;
+
+  
+      
+  }
+  .amountdiv1{
+    align-items: flex-start;
+    margin-bottom: 0.1rem;
+    background-color: rgba(61, 117, 190, 0.507);
+    border-bottom:2px solid darkblue;
+      border-radius: 5px;
+      margin-left: 2.3rem;
+      display: flex; 
+      flex-direction: row;
+      padding:3px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: rgb(228, 235, 228);
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      
+      width:3.8rem
+      }
+  
+  .patientheading{
+      flex:1;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-direction: column;
+      
+    }
+    .bodyheadernew{
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .image1{
+      background-repeat: 'no-repeat';
+      width:100vw;
+      height:100vh;
+      background-size: cover;
+     background-position: center;
+     padding-top: 20px;
+     
+     display: flex;
+     flex-direction: column;
+  }
+  .patientcontainer{
+    flex-direction: column;
+    align-items: center;
+  }
+}   
+

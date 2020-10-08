@@ -1,0 +1,462 @@
+
+*{
+  margin:0px;
+  padding:0px;
+}
+.App {
+  text-align: center;
+  background-image: url(./images/backgroundadmin.jpg);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  background-attachment:fixed;
+  width: 100vw;
+  
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  margin-bottom: 50px;
+}
+
+.splash-logo{
+  height: 50vmin;
+  pointer-events: none;
+}
+
+.head-logo{
+  height: 10vmin;
+  pointer-events: none;  
+}
+
+.App-header {
+  background-color: #c2c4c4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px dashed rgb(165, 7, 21);
+}
+
+.loginform{
+  width: 300px;
+  border-radius: 5px;
+ 
+ 
+}
+.loginvalid{
+  display: flex;
+  width:100%;
+  margin-top: 1px;
+  flex-direction: column;
+}
+.inputField{
+  width:100%;
+  height:30px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.button{
+  background-color: maroon;
+  width: 200px;
+  height: 25px;
+  color:white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.logoutbtn{
+  background-color:red;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 15px;  
+}
+
+.addhospitalbtn{
+  background-color:darkblue;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 15px;  
+  margin-right: 5em;
+}
+
+.hoscontainer{
+  display:flex;
+  justify-content: center;
+}
+
+
+
+.nav-container{
+  
+  background-color:rgba(250, 250, 210, 0.582);
+  padding: 15px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+ 
+}
+.head-container{
+  padding: 10px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.nav-left{
+  flex:1;
+  flex-wrap: wrap;
+}
+.nav-right{
+  flex:1;
+  flex-wrap: wrap;
+  
+}
+.nav-center{
+  display: flex;
+  flex:5;
+  flex-wrap: wrap;
+  
+}
+.brand-logo{
+  align-items: flex-start;
+  display: flex;
+  left: 40px;
+  
+  
+}
+
+.nav-container ul li {
+  display: inline-flex;
+  
+  margin-left: 15px;
+  font-weight: bold;
+  
+ 
+}
+
+.links{
+  color: red;
+  text-decoration: none;
+  
+}
+.activeLink{
+color:#333;
+border-bottom: 5px solid greenyellow;
+}
+
+.ContactCard{
+  background-color:rgb(241, 239, 102);
+  border: 1px solid rgba(19, 101, 196, 0.7);
+  border-bottom: 7px solid rgba(181, 184, 11, 0.76);
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 1em;
+  margin-top: 1em;
+  flex-direction: column;
+  text-decoration: none;
+  width:60vw;
+  color: black;
+} 
+.contacthead{
+  background-color: lightseagreen;
+  border-radius:10px 10px 0px 0px ;
+  border-bottom: 2px solid darkgoldenrod;
+  margin-bottom: 1rem;
+}
+.contactbody{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contactIcons{
+  flex:1;  
+}
+.contacttext{
+  flex:1;
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size: 20px;
+}
+
+.hospitalCard{
+  width:35vw;
+  background-color: ghostwhite;
+  border: 2px solid rgb(236, 9, 9);
+  border-bottom: 7px solid darkred;
+  border-radius: 10px;
+  margin-left: 2em;
+  margin-right: 2em;
+  text-decoration: none;
+  color:black;
+  margin-top: 1em;
+  align-items: center;
+  display: flex; 
+}
+
+
+.myhospital{
+  width:12vw;
+  height: 20vh;
+  display:block;
+  }
+
+  .Hosimage{
+    flex:1;
+    margin: 10px;
+    border: 2px dashed rgb(236, 9, 9);
+    justify-content: center;
+    align-self: center;  
+  }
+
+  .Hosinfo{
+    flex:2;
+    margin: 5px;
+    
+  }
+
+.Hospitalcards{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .links{
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+  
+  }
+  .activeLink{
+    color:#333;
+    border-bottom: 3px solid greenyellow;
+    }
+  .Hospitalcards{
+    flex-direction: column;
+  }
+
+  .hospitalCard{
+    width:65vw;
+    flex:1;
+    border: 2px solid rgb(238, 222, 6);
+    border-bottom: 7px solid rgb(114, 107, 5);
+    border-radius: 10px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    display: flex; 
+
+  }
+  .Hosimage{
+    flex:1;
+    border: 2px dashed rgb(145, 135, 5);
+  }
+  .HosAddress{
+    flex:2;
+    width:60vw;
+    margin:10px;
+    
+  }
+
+  .myhospital{
+    width:22vw;
+    height: 15vh;
+    }
+
+    .logoutbtn{
+      background-color:red;
+      color: white;
+      padding: 8px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 15px;  
+    }
+    .nav-left{
+      flex:1;
+      flex-wrap: wrap;
+    }
+    .nav-right{
+      flex:1;
+      flex-wrap: wrap;
+      
+    }
+    .nav-center{
+      display: flex;
+      flex:3;
+      flex-wrap: wrap;
+      
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+  h1{
+    font-size: large;
+  }
+  .links{
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+    
+  
+  }
+  .activeLink{
+    color:#333;
+    border-bottom: 3px solid greenyellow;
+    }
+
+  
+
+  .hospitalCard{
+    width:45vh;
+    flex:1;
+    background-color: ghostwhite;
+    border: 2px solid darkgoldenrod;
+    border-bottom: 7px solid darkgoldenrod;
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    display: flex; 
+    flex-direction: column;
+    
+
+  }
+  .hosimage{
+    width:40vh;
+  }
+  .HosAddress{
+    flex:2;
+    width:56vw;
+    
+  }
+
+  .myhospital{
+    width:50vw;
+    }
+
+    .logoutbtn{
+      background-color:red;
+      color: white;
+      padding: 5px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 12px;  
+      flex-wrap: wrap;
+    }
+    .nav-left{
+      flex:1;
+      flex-wrap: wrap;
+    }
+    .nav-right{
+      flex:1;
+      flex-wrap: wrap;
+      
+    }
+    .nav-center{
+      display: flex;
+      flex:3;
+      flex-wrap: wrap;
+      
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+  h1{
+    font-size: large;
+  }
+  .links{
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+    
+  
+  }
+  .activeLink{
+    color:#333;
+    border-bottom: 3px solid greenyellow;
+    }
+
+  
+
+  .hospitalCard{
+    flex:1;
+    width: 70vw;
+    background-color: ghostwhite;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    display: flex; 
+    flex-direction: column;
+
+  }
+  .hosimage{
+    width:65vw;
+    border-radius: 5px;
+  }
+  .HosAddress{
+    flex:2;
+    width:65vw;
+    height:200px;
+  }
+
+  .myhospital{
+    width:100%;
+    display: block;
+   
+    }
+
+    .logoutbtn{
+      background-color:red;
+      color: white;
+      padding: 7px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 15px;  
+      flex-wrap: wrap;
+    }
+    .nav-left{
+      flex:1;
+      flex-wrap: wrap;
+    }
+    .nav-right{
+      flex:1;
+      flex-wrap: wrap;
+      
+    }
+    .nav-center{
+      display: flex;
+      flex:1;
+      flex-wrap: wrap;
+      
+    }
+
+}

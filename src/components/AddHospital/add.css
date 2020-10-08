@@ -1,0 +1,258 @@
+.formbody {
+  width: 100vw;
+  background-color: rgba(78, 170, 127, 0.842);
+  padding: 20px;
+  height: 100vh;
+}
+.cardhead {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.hospitalformimage {
+  width: 12vw;
+  /* height: 20vh; */
+  display: block;
+}
+
+.formInput {
+  flex-direction: row;
+  display: flex;
+  width: 30vw;
+  padding: 5px;
+  align-items: center;
+}
+.textinput {
+  font-size: 1.2rem;
+  flex: 1;
+  font-weight: bolder;
+  color: rgb(28, 33, 110);
+}
+
+.inputbox {
+  height: 5vh;
+  font-size: 1rem;
+  padding-left: 5px;
+  background-color: #99eeb0bb;
+  border-radius: 0px 15px 0px 15px;
+  border-bottom: 4px solid rgb(133, 113, 49);
+}
+
+.uploadsection {
+  display: flex;
+  width: 45vw;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.uploadbtn {
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.uploadbox {
+  height: 25px;
+  font-size: 15px;
+  background-color: #d3e2d7e5;
+}
+
+.buttonNew {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: darkgreen;
+  border-radius: 15px;
+  padding: 10px;
+  width: 30vw;
+}
+.cancelNew {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(201, 25, 39);
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+  width: 10vw;
+}
+.buttonhead {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadimage {
+  padding: 5px;
+  font-size: 12px;
+  width: 100px;
+  font-weight: bold;
+  background-color: #e7e7e7;
+  color: black;
+  border-color: darkgray;
+  border-radius: 8px;
+}
+
+.validinput {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardhead {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+
+  .formInput {
+    flex-direction: row;
+    display: flex;
+    width: 70vw;
+    padding: 5px;
+    align-items: center;
+  }
+
+  .textinput {
+    font-size: 1.3rem;
+    flex: 1;
+    text-align: end;
+    margin-right: 1rem;
+    font-weight: bolder;
+    color: rgb(28, 33, 110);
+  }
+
+  .inputbox {
+    height: 5vh;
+    font-size: 1rem;
+    padding-left: 5px;
+    background-color: #99eeb0bb;
+    border-radius: 0px 15px 0px 15px;
+    border-bottom: 4px solid rgb(133, 113, 49);
+  }
+
+  .uploadsection {
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .uploadbtn {
+    display: flex;
+    width: 80vw;
+    justify-content: flex-end;
+  }
+  .uploadbox {
+    height: 25px;
+    font-size: 15px;
+    background-color: #d3e2d7e5;
+  }
+  .uploadimage {
+    padding: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: #e7e7e7;
+    color: black;
+    border-color: darkgray;
+    border-radius: 8px;
+  }
+  .buttonNew {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 50vw;
+    background-color: darkgreen;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .cancelNew {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 25vw;
+    background-color: rgb(201, 25, 39);
+    padding: 10px;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .cardhead {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formInput {
+    flex-direction: row;
+    display: flex;
+    width: 90vw;
+    padding: 5px;
+    align-items: center;
+  }
+
+  .textinput {
+    font-size: 1.3rem;
+    flex: 1;
+    text-align: end;
+    margin-right: 0.7rem;
+    font-weight: bolder;
+    color: rgb(28, 33, 110);
+  }
+
+  .uploadsection {
+    display: flex;
+    width: 95vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .uploadbtn {
+    display: flex;
+    width: 82vw;
+    justify-content: flex-end;
+  }
+  .uploadbox {
+    height: 25px;
+    font-size: 15px;
+    margin-top: 0.6rem;
+    background-color: #d3e2d7e5;
+  }
+  .uploadimage {
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #e7e7e7;
+    color: black;
+    border-color: darkgray;
+    border-radius: 8px;
+  }
+
+  .buttonNew {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 50vw;
+    background-color: darkgreen;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .cancelNew {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 25vw;
+    background-color: rgb(201, 25, 39);
+    padding: 10px;
+    border-radius: 15px;
+  }
+}
